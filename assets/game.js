@@ -102,6 +102,9 @@ function startTimer() {
     timer = setInterval(function() {
         timerCount--;
         timerText.textContent = timerCount;
+        if (timerCount === 0) {
+            timerEnd()
+        }
     },1000);
 }
 
@@ -137,9 +140,20 @@ incrementScore = num => {
 }
 
 decrementTime = TIME_PENALTY => {
-    timerCount -= 10
+    timerCount -= 10;
+    var timerText = document.getElementById('timer');
+    timerText.classList.add('flash-red');
+    setTimeout(function(){
+        timerText.classList.remove('flash-red');
+    }, 1000)
 }
 
 // ADD TIMER STOP AT 0 => LOSE
+timerEnd = () => {
+    if (confirm('You ran out of time! Would you like to play again?')) {
+        startGame();}
+// go back to home screen
+        else {window.location.assign('./index.html')}
+}
 
 startGame ();

@@ -61,3 +61,8 @@ height: 3.4rem;
 background-color: #56a5eb;
 width: 0%;
 }
+
+.flash-red {
+    background: #dc3545;
+    border-radius: 10px;
+}
