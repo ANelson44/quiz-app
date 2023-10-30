@@ -7,16 +7,16 @@ quiz is timed and upon completion will allow the user to input their initials to
 
 ## Installation
 
-Follow the link to see the page! ==> 
+Follow the link to see the page! ==> https://anelson44.github.io/quiz-app/
 
 ## Usage
 
 Click on the "Play" button to get started! Remember this quiz is timed and wrong answers will cause a 10 second penalty to the timer!
 
-[Home Screen](./Images/Home-Screen.jpg)
-[Quiz Screen](./images/Quiz-Screen.jpg)
-[Score Input Screen](./images/ScoreInput-Sceen.jpg)
-[HighScore Screen](./images/HighScores-Screen.jpg)
+![Home Screen](./Images/Home-Screen.jpg)
+![Quiz Screen](./images/Quiz-Screen.jpg)
+![Score Input Screen](./images/ScoreInput-Sceen.jpg)
+![HighScore Screen](./images/HighScores-Screen.jpg)
    
 ## Credits
 
